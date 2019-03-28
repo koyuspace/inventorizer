@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline' gap:; style-src 'self' 'unsafe-inline'; media-src *" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="css/pure.css" />
+    <title>Inventorizer</title>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.md5.js"></script>
+    <script type="text/javascript" src="cordova.js"></script>
+</head>
+
+<body>
+    <div class="app content">
+            <div class="scan">
+                <div id="wrapper">
+                    <img src="img/logo.png" alt="Logo" />
+                    <button id="scan" class="pure-button pure-button-primary">Scan</button>
+                </div>
+            </div>
+        <div id="entry">
+            <h1 class="header">Device</h1>
+            <form>
+                <input type="hidden" id="deviceid" />
+                <p>IP</p>
+                <p><input name="ip" type="text" id="newdev-ip" /></p>
+                <p>Invoice number</p>
+                <p><input name="ino" type="text" id="newdev-ino" /></p>
+                <p>Ethernet box number</p>
+                <p><input name="bno" type="text" id="newdev-bno" /></p>
+                <p>Hostname</p>
+                <p><input name="hostname" type="text" id="newdev-hostname" /></p>
+                <p>Location</p>
+                <p><input name="location" type="text" id="newdev-location" /></p>
+                <p>Vendor</p>
+                <p><input name="vendor" type="text" id="newdev-vendor" /></p>
+                <p>Type</p>
+                <p><input name="type" type="text" id="newdev-type" /></p>
+                <p>Device</p>
+                <p><input name="device" type="text" id="newdev-device" /></p>
+                <p>Deliverer</p>
+                <p><input name="deliverer" type="text" id="newdev-deliverer" /></p>
+                <p><a class="pure-button button-error" id="dev-delbutton" style="float: left !important;">Delete</a> <a class="pure-button pure-button-primary" id="btn-transmit" style="float: right !important;">Submit</a></p>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

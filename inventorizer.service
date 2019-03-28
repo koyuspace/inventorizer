@@ -1,0 +1,15 @@
+[Unit]
+Description=Inventorizer
+After=network.target redis-server@.service
+
+[Service]
+ExecReload=/bin/kill $MAINPID
+KillMode=process
+Restart=on-failure
+; Replace the username `koyu` with your username
+ExecStart=/usr/bin/python3 /home/koyu/inventorizer/backend.py
+WorkingDirectory=/home/koyu/inventorizer
+User=koyu
+
+[Install]
+WantedBy=multi-user.target

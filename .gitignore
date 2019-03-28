@@ -1,0 +1,9 @@
+redis-server.exe
+authorized.txt
+logs/
+dump.rdb
+conf/
+
+# KDE and other farty dotfiles
+.directory
+.~*

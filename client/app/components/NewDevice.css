@@ -1,0 +1,32 @@
+.modal > .content {
+    width: 90%;
+}
+
+img[alt="loading"] {
+    padding-top: 14%;
+    padding-bottom: 15px;
+}
+
+.mod1 {
+    padding: 180px 5% 60px 5%;
+}
+
+.mod2 {
+    padding: 60px 5% 60px 5%;
+}
+
+@media(screen) {
+    #newdev-devid {
+        margin-top: -10px;
+        font-size: 9pt;
+    }
+}
+
+@media(print) {
+    #newdev-devid {
+        margin: 0 auto;
+        display: block;
+        margin-top: 10px !important;
+        font-size: 9pt;
+    }
+}

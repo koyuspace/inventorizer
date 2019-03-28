@@ -1,0 +1,129 @@
+body {
+  padding: 20px;
+}
+
+#scan {
+  width: 50%;
+  margin: 0 auto;
+  font-size: 38pt;
+  display: block;
+  padding: 10px;
+}
+
+img[alt="Logo"] {
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 30px;
+}
+
+#entry {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.logo:hover,
+.logo:active,
+.logo:focus {
+  background: transparent;
+}
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background: #ccc;
+}
+
+h1 {
+  font-size: 72pt;
+  margin-bottom: 30px;
+}
+
+input[type=text], select {
+  width: 90%;
+  height: 45px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+p button {
+  width: 10%;
+  height: 45px;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+}
+
+*:focus {
+  outline: none;
+}
+
+#wrapper {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  margin: 20px;
+  padding: 25px;
+}
+
+.header {
+  width: 100%;
+  background: #ccc;
+  text-align: center;
+  font-size: 28pt;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.button-error {
+  background: rgb(202, 60, 60) !important;
+  color: #fff !important;
+}
+
+.wrapper {
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.dimmer {
+  background: #000;
+  opacity: 0.5;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+}
+
+.dim {
+  display: block;
+  margin: 2em auto;
+  z-index: 200;
+}
+
+p button {
+  border-radius: 0 !important;
+}
+
+.content {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+.instructions {
+  width: 25%;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 60px;
+}
+
+p .pure-button {
+  margin: 20px !important;
+}
