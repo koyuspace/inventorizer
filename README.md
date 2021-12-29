@@ -2,8 +2,6 @@
 
 Inventorizer is an inventarization software for your IT department. It allows you to create, modify and delete your devices in your database. Every device gets a QR Code you can scan with an app and change device information from the go. The apps are also protected against leakage of the binary files (copy protection) so your data is ensured to be safe.
 
-The software is licensed under a koyu.space 0 license.
-
 ## Building
 
 ### Desktop client
